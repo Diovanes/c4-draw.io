@@ -160,7 +160,7 @@ Draw.loadPlugin(function (ui) {
     };
     C4SoftwareSystem.prototype.handler = c4StateHandler;
     C4SoftwareSystem.prototype.create = function () {
-        var c4SoftwareSystem = new mxCell('', new mxGeometry(0, 70, 160, 110), 'rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1168bd;fontColor=#ffffff;align=center;arcSize=7;strokeColor=#0f5eaa;');
+        var c4SoftwareSystem = new mxCell('', new mxGeometry(0, 70, 160, 110), 'rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#0067BA;fontColor=#ffffff;align=center;arcSize=7;strokeColor=#0f5eaa;');
         c4SoftwareSystem.setVertex(true);
         c4SoftwareSystem.setValue(mxUtils.createXmlDocument().createElement('object'));
         c4SoftwareSystem.setAttribute('label', '<b>name</b><div>[Software System]</div><div><br></div><div>Description</div>');
@@ -177,7 +177,7 @@ Draw.loadPlugin(function (ui) {
     };
     C4SoftwareSystemDependency.prototype.handler = c4StateHandler;
     C4SoftwareSystemDependency.prototype.create = function () {
-        var c4SoftwareSystemDependency = new mxCell('', new mxGeometry(0, 70, 160, 110), 'rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=7;strokeColor=#8a8a8a;');
+        var c4SoftwareSystemDependency = new mxCell('', new mxGeometry(0, 70, 160, 110), 'rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=7;strokeColor=#8a8a8a;');
         c4SoftwareSystemDependency.setVertex(true);
         c4SoftwareSystemDependency.setValue(mxUtils.createXmlDocument().createElement('object'));
         c4SoftwareSystemDependency.setAttribute('label', '<b>name</b><div>[Software System]</div><div><br></div><div>Description</div>');
@@ -194,7 +194,7 @@ Draw.loadPlugin(function (ui) {
     };
     C4Container.prototype.handler = c4StateHandler;
     C4Container.prototype.create = function () {
-        var c4Container = new mxCell('', new mxGeometry(0, 70, 160, 110), 'rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#438dd5;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#3c7fc0;');
+        var c4Container = new mxCell('', new mxGeometry(0, 70, 160, 110), 'rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#3B8CD2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#3c7fc0;');
         c4Container.setVertex(true);
         c4Container.setValue(mxUtils.createXmlDocument().createElement('object'));
         c4Container.setAttribute('label', '<span><b>name</b></span><div>[Container:&nbsp;<span>technology</span><span>]</span></div><div><br></div><div>Description</div>');
@@ -212,7 +212,7 @@ Draw.loadPlugin(function (ui) {
     };
     C4Component.prototype.handler = c4StateHandler;
     C4Component.prototype.create = function () {
-        var c4Component = new mxCell('', new mxGeometry(0, 70, 160, 110), 'rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#85bbf0;fontColor=#000000;align=center;arcSize=7;strokeColor=#78a8d8;');
+        var c4Component = new mxCell('', new mxGeometry(0, 70, 160, 110), 'rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#85bbf0;fontColor=#000000;align=center;arcSize=7;strokeColor=#78a8d8;');
         c4Component.setVertex(true);
         c4Component.setValue(mxUtils.createXmlDocument().createElement('object'));
         c4Component.setAttribute('label', '<span><b>name</b></span><div>[Component:&nbsp;<span>technology</span><span>]</span></div><div><br></div><div>Description</div>');
@@ -230,7 +230,7 @@ Draw.loadPlugin(function (ui) {
     };
     C4ExecutionEnvironment.prototype.handler = c4StateHandler;
     C4ExecutionEnvironment.prototype.create = function () {
-        var c4ExecutionEnvironment = new mxCell('', new mxGeometry(0, 70, 200, 170), 'rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffffff;fontColor=#000000;align=left;arcSize=3;strokeColor=#000000;verticalAlign=bottom;');
+        var c4ExecutionEnvironment = new mxCell('', new mxGeometry(0, 70, 200, 170), 'rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffffff;fontColor=#000000;align=left;arcSize=3;strokeColor=#000000;verticalAlign=bottom;');
         c4ExecutionEnvironment.setVertex(true);
         c4ExecutionEnvironment.setValue(mxUtils.createXmlDocument().createElement('object'));
         c4ExecutionEnvironment.setAttribute('label', '<div style="text-align: left">name</div><div style="text-align: left">[applicationAndVersion]</div>');
@@ -247,7 +247,7 @@ Draw.loadPlugin(function (ui) {
     };
     C4DeploymentNode.prototype.handler = c4StateHandler;
     C4DeploymentNode.prototype.create = function () {
-        var c4DeploymentNode = new mxCell('', new mxGeometry(0, 70, 240, 230), 'rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffffff;fontColor=#000000;align=left;arcSize=3;strokeColor=#000000;verticalAlign=bottom;');
+        var c4DeploymentNode = new mxCell('', new mxGeometry(0, 70, 240, 230), 'rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffffff;fontColor=#000000;align=left;arcSize=3;strokeColor=#000000;verticalAlign=bottom;');
         c4DeploymentNode.setVertex(true);
         c4DeploymentNode.setValue(mxUtils.createXmlDocument().createElement('object'));
         c4DeploymentNode.setAttribute('label', '<div style="text-align: left">hostname</div><div style="text-align: left">[operationSystem]</div><div style="text-align: right">scalingFactor</div>');
